@@ -12,14 +12,14 @@ v2 <- 0
 
 repita
 
-   escreval("Digite 1 para quilometros em metros")
-   escreval("Digite 2 para converter litros em metros cúbicos")
+   escreval("Digite 1 para converter litros em metros cúbicos")
+   escreval("Digite 2 para quilometros em metros")
    escreval("Digite 3 para sair do programa")
    leia(opcao)
    escreval("")
    limpatela
 
-   se opcao = "1" entao
+   se opcao = "2" entao
       escreval("Digite o valor em quilometros para ser convertido em metros")
       leia(km)
       v1 <- km * 1000
@@ -27,7 +27,7 @@ repita
       escreva("")
    senao
 
-      se opcao = "2" entao
+      se opcao = "1" entao
          escreval("Digite o valor em metros cubicos para ser convertido em litros")
          leia(metros)
          escreval
