@@ -17,11 +17,11 @@ repita
    escreval("Digite 3 para sair do programa")
    leia(opcao)
    escreval("")
+   limpatela
 
    se opcao = "1" entao
       escreval("Digite o valor em quilometros para ser convertido em metros")
       leia(km)
-      escreval
       v1 <- km * 1000
       escreval(km, " quilometros equivale a ", v1, " metros")
       escreva("")
